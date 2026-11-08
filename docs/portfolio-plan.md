@@ -1,6 +1,6 @@
 # Portfolio design and career comparison
 
-AI recommendations; learner's final leaning/reasons pending. [Employer records](employer-research.md).
+AI recommendations with the learner’s UI/application direction now confirmed; see [reviewed decisions](learner-decisions.md). [Employer records](employer-research.md).
 
 ## Two directions
 
@@ -8,7 +8,7 @@ Application engineering: J02 emphasizes user-facing delivery, data modeling and 
 
 Platform/MLOps: J03 emphasizes reusable infrastructure, reliable operations, observability and ML workloads. Proposed emphasis: deployment architecture, persistent storage, repeatable setup, measured checks and operational limits. Container hosting alone does not prove MLOps expertise.
 
-AI recommendation: use application engineering as the provisional primary direction and platform work as supporting evidence. It connects a small RAG product to delivery evidence without claiming senior or ML-platform experience. Learner preference/reason remains pending. A short private reflection should cover the two directions, evidence, one gap, a dated action and a changed assumption; it will not be fabricated.
+AI recommendation: use application engineering as the provisional primary direction and platform work as supporting evidence. It connects a small RAG product to delivery evidence without claiming senior or ML-platform experience. Learner preference/reason is recorded in the reviewed decisions. A short private reflection should cover the two directions, evidence, one gap, a dated action and a changed assumption; it will not be fabricated.
 
 ## Target reader and evidence map — proposed
 
@@ -30,7 +30,7 @@ About/contact: suitable background and approved professional links; no private r
 A — Evidence first: intro → featured RAG/group work → decisions and checks → background/contact.
 B — Background first: intro → background/skills → project stories → decisions/checks/contact.
 
-AI recommends A because the reader can reach evidence earlier. This is a hypothesis, not peer-tested behavior. Both use a restrained technical voice, clear hierarchy, readable type, visible keyboard focus, sufficient contrast and a mobile single-column flow. Project cards name status and own contribution. No invented endorsements or metrics.
+The learner adopted a next action to finalize the evidence-first outline by November 12. AI recommends A because the reader can reach evidence earlier. This is a hypothesis, not peer-tested behavior. Both use a restrained technical voice, clear hierarchy, readable type, visible keyboard focus, sufficient contrast and a mobile single-column flow. Project cards name status and own contribution. No invented endorsements or metrics.
 
 ## Observable checks planned
 
