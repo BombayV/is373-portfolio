@@ -41,3 +41,9 @@ Build November 24: hosted foundation. Checked Release December 3: accurate case 
 ## Help and limitations
 
 Initial record drafted by AI. Personal reasoning and experience remain pending. [Requirement sources](review-1-sources.md).
+
+## Review 1 prepared artifacts
+
+[Three original employer records](employer-research.md) · [Two-direction comparison, evidence map and layout options](portfolio-plan.md).
+
+Current next step: learner provisional direction/reason, review of proposed public personal statements and dated action. Earlier pending lists describe the initial scaffold; linked files hold current research. No personal resume content has been published.
