@@ -19,3 +19,11 @@ Next: learner confirms unused hostnames and creates free-tier API access private
 ## Deployment boundary update
 
 Learner approved portfolio.bombayv.com and rag.bombayv.com if unused. No existing file route matched either hostname; both DNS lookups failed during this check. Existing CMS homepage and calculator health returned HTTP 200. No routes/containers changed. DNS A records and private free-tier API-key setup are pending.
+
+## Latest infrastructure boundary
+
+Public resolver 1.1.1.1 returned Cloudflare proxy addresses for both agreed hostnames; local system DNS still returned lookup failure. Portfolio archive upload completed. An SSH command to create a new deployment directory, build image is373-portfolio:037256b and start a capped container was sent but returned no output. A bounded follow-up SSH check timed out; the stalled local client was terminated. Remote execution/completion is unknown and must be inspected before retrying. No new Traefik route was installed. Direct-origin CMS HTTPS check timed out; that alone does not establish a public outage because direct access may be restricted. Do not claim hosted completion. No host restart, cleanup or unrelated configuration change performed.
+
+## Runtime capacity finding
+
+SSH recovered. Portfolio image is373-portfolio:037256b built successfully from committed source; base nginx digest sha256:a8b39bd9cf0f83869a2162827a0caf6137ddf759d50a171451b335cecc87d236. Starting its new container failed while creating a runtime FIFO: /run tmpfs has 97 MB used of 97 MB and 123463/123463 inodes used; root disk still has 17 GB free. New portfolio container is Created, not running; no new route installed. Root-owned runtime directories dominate /run usage. Existing selected ExecIDs counts were zero; this does not establish which runtime files are safe to delete. All five existing services have always/unless-stopped restart policies. Controlled reboot with existing-site recovery checks proposed for explicit learner approval because it affects unrelated services. No reboot, deletion or update performed yet.
