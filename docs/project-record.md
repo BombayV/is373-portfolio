@@ -25,3 +25,9 @@
 ## Later stages
 
 Build November 24; Checked Release December 3; Improve December 10. Actual human peer observation/change/retest belongs to Improve. No later-stage completion claimed.
+
+## Review 2 — Build
+
+- Changed: hosted the [portfolio foundation](https://portfolio.bombayv.com/) for an early-career application engineering reviewer. It has an introduction, Work/Approach/Contact navigation, a RAG case study, prior Studio work, and a labeled group case study placeholder.
+- Checked: public HTTPS and AI browser checks at desktop and mobile widths; see [Build evidence](build-evidence.json). No detailed learner browser observation or peer feedback is claimed.
+- Next: add the group case study after the contribution and evidence are available, then run the Release checks. [Draft PR](https://github.com/BombayV/is373-portfolio/pull/1).

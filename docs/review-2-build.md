@@ -37,3 +37,7 @@ Learner explicitly approved one controlled reboot and recovery checks. Sent sudo
 SSH recovered; changed boot ID confirms reboot. /run now has 96 MB available, 1% inode use. All five existing containers restarted and original route hashes match baseline. Calculator, test and QA HTTPS returned 200; CMS initially returned 502 during startup, then health checks returned exit 0 and public HTTPS returned 200. No second reboot or runtime-file deletion performed.
 
 Started the previously Created portfolio container, verified private HTTP 200 and expected content, added only is373-portfolio.yml to the existing file provider without restarting Traefik. Trusted public HTTPS returned 200 at https://portfolio.bombayv.com/ . AI reviewed desktop and 390px mobile layout; measured scroll width equals viewport width. [Sanitized evidence](build-evidence.json). Learner's own browser observation remains pending. Existing route hashes are unchanged.
+
+## Live guide linked
+
+The portfolio Work card now links to the [hosted guide](https://rag.bombayv.com/). A fresh public HTTPS request returned the updated link. The initial desktop and mobile evidence above applies to the earlier portfolio foundation; the group case study remains labeled as unfinished.
