@@ -1,0 +1,37 @@
+{
+  "date": "2026-11-08",
+  "stage": "Review 2 Build \u2014 portfolio foundation",
+  "url": "https://portfolio.bombayv.com/",
+  "source_commit": "037256b",
+  "public_https_status": 200,
+  "private_backend_status": 200,
+  "browser_review": {
+    "desktop": "introduction, direction, navigation and labeled case studies observed",
+    "mobile": {
+      "viewport_width": 390,
+      "viewport_height": 844,
+      "scroll_width": 390,
+      "horizontal_overflow": false
+    }
+  },
+  "existing_public_routes_after_reboot": {
+    "cms.bombayv.com": 200,
+    "373ai.bombayv.com/health": 200,
+    "is373-test.bombayv.com": 200,
+    "qa.is373-test.bombayv.com": 200
+  },
+  "existing_route_hashes_unchanged": true,
+  "new_route": "is373-portfolio.yml",
+  "reboot_explicitly_approved": true,
+  "recovery": {
+    "boot_id_changed": true,
+    "run_available_mb": 96,
+    "run_inode_usage_percent": 1
+  },
+  "limits": [
+    "No human portfolio observation yet",
+    "No peer feedback claimed",
+    "RAG chat remains unfinished",
+    "No new CI workflow run claimed"
+  ]
+}

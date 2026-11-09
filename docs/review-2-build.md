@@ -1,0 +1,43 @@
+# Review 2 build progress
+
+November 8, 2026 — work in progress, not ready for submission. Due November 24, 2026 at 1 p.m. Eastern.
+
+## Actual work and checks
+
+Implemented static portfolio foundation with introduction, confirmed UI/application direction, navigation, source/evidence links and accurately labeled individual/group project sections. Local browser DOM inspection confirmed content/navigation. No public deployment, narrow-screen visual check or human browser observation yet. Container definition prepared but not built/tested.
+
+## Dependencies
+
+Server resource check: 2 CPU cores, 964 MB RAM, about 187 MB available during inspection, 17 GB disk free, no NVIDIA tool found. Hosted model inference recommended. No model installed and no server/proxy changes made. Existing containers reported unhealthy before this work; investigate actual boundary before deployment.
+
+Candidate free-tier provider: Google Gemini 3.5 Flash-Lite generation and gemini-embedding-001 embeddings (768 dimensions with normalization); account quota/availability unverified. Official pricing and embedding docs inspected by AI. Keep billing disabled; no paid fallback. No API key received or stored in this repository.
+
+Next: learner confirms unused hostnames and creates free-tier API access privately; prepare restricted server secret entry, check DNS/routes/baseline, deploy scoped services, import corpus and collect actual source/representation/query/answer/check evidence. Preserve all existing services. Plan-stage learner/source-review gaps remain as previously recorded.
+
+[Build assignment](https://njit.instructure.com/courses/70733/assignments/769190) · [Provider pricing](https://ai.google.dev/gemini-api/docs/pricing) · [Embeddings](https://ai.google.dev/gemini-api/docs/embeddings).
+
+## Deployment boundary update
+
+Learner approved portfolio.bombayv.com and rag.bombayv.com if unused. No existing file route matched either hostname; both DNS lookups failed during this check. Existing CMS homepage and calculator health returned HTTP 200. No routes/containers changed. DNS A records and private free-tier API-key setup are pending.
+
+## Latest infrastructure boundary
+
+Public resolver 1.1.1.1 returned Cloudflare proxy addresses for both agreed hostnames; local system DNS still returned lookup failure. Portfolio archive upload completed. An SSH command to create a new deployment directory, build image is373-portfolio:037256b and start a capped container was sent but returned no output. A bounded follow-up SSH check timed out; the stalled local client was terminated. Remote execution/completion is unknown and must be inspected before retrying. No new Traefik route was installed. Direct-origin CMS HTTPS check timed out; that alone does not establish a public outage because direct access may be restricted. Do not claim hosted completion. No host restart, cleanup or unrelated configuration change performed.
+
+## Runtime capacity finding
+
+SSH recovered. Portfolio image is373-portfolio:037256b built successfully from committed source; base nginx digest sha256:a8b39bd9cf0f83869a2162827a0caf6137ddf759d50a171451b335cecc87d236. Starting its new container failed while creating a runtime FIFO: /run tmpfs has 97 MB used of 97 MB and 123463/123463 inodes used; root disk still has 17 GB free. New portfolio container is Created, not running; no new route installed. Root-owned runtime directories dominate /run usage. Existing selected ExecIDs counts were zero; this does not establish which runtime files are safe to delete. All five existing services have always/unless-stopped restart policies. Controlled reboot with existing-site recovery checks proposed for explicit learner approval because it affects unrelated services. No reboot, deletion or update performed yet.
+
+## Approved reboot and incomplete recovery
+
+Learner explicitly approved one controlled reboot and recovery checks. Sent sudo systemctl reboot once. Pre-reboot boot ID b6db6b3c-6e2f-45f9-9fd2-4b46b2adb1eb; all five existing containers were running. Command returned success. Subsequent SSH first refused, then timed out; public CMS returned Cloudflare HTTP 522. Recovery and /run clearance not yet verified. No second reboot, route install, host update or runtime-file deletion performed. Requested cloud VM status/IP and short boot-error information; deployment remains paused at this actual boundary.
+
+## Recovery and portfolio foundation verified
+
+SSH recovered; changed boot ID confirms reboot. /run now has 96 MB available, 1% inode use. All five existing containers restarted and original route hashes match baseline. Calculator, test and QA HTTPS returned 200; CMS initially returned 502 during startup, then health checks returned exit 0 and public HTTPS returned 200. No second reboot or runtime-file deletion performed.
+
+Started the previously Created portfolio container, verified private HTTP 200 and expected content, added only is373-portfolio.yml to the existing file provider without restarting Traefik. Trusted public HTTPS returned 200 at https://portfolio.bombayv.com/ . AI reviewed desktop and 390px mobile layout; measured scroll width equals viewport width. [Sanitized evidence](build-evidence.json). Learner's own browser observation remains pending. Existing route hashes are unchanged.
+
+## Live guide linked
+
+The portfolio Work card now links to the [hosted guide](https://rag.bombayv.com/). A fresh public HTTPS request returned the updated link. The initial desktop and mobile evidence above applies to the earlier portfolio foundation; the group case study remains labeled as unfinished.
